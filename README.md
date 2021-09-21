@@ -1,5 +1,6 @@
-# 👋 Hi, I’m @Programmerryoki  
-- I am a student at San Jose State University, and persuing Applied and Computational Mathematics.  
+# 👋 Hi, I’m Ryoki Kunii (@Programmerryoki)
+- I am a student at San Jose State University, and persuing Applied and Computational Mathematics
+- I am junior student, and planning to graduate at Fall 2022.
 ## Some Repositories that I am working on right now!
 - SCE Organizations (https://github.com/SCE-Development)
   - I am in a dev team and creating / created
