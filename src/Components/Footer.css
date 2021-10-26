@@ -1,0 +1,10 @@
+#wrapper_foot {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  text-align: center;
+  z-index: 1000;
+  background-color: #a6373f;
+  color: #f8a6ac;
+}

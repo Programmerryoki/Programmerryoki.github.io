@@ -1,0 +1,10 @@
+#wrapper_head {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  top: 0;
+  bottom: auto;
+  text-align: center;
+  z-index: 1000;
+  background-color: #3c8d2f;
+}
