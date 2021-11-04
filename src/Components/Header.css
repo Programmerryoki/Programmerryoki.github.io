@@ -8,3 +8,9 @@
   z-index: 1000;
   background-color: #3c8d2f;
 }
+
+.Header {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}

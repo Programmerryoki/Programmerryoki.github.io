@@ -1,0 +1,43 @@
+.subpage-menu {
+  background-color: #3c8d2f;
+  padding: 10px;
+}
+
+.subpage-link {
+  background-color: #3c8d2f;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.subpage-link:hover {
+  background-color: #96d38d;
+}
+
+.subpage-link:focus,
+a.is-active {
+  background-color: #64b058;
+}
+
+.programming_body {
+  padding: 10px 0 0 0;
+}
+
+.subsubpage-link {
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 2px;
+  font-weight: bold;
+}
+
+.subsubpage-link:hover {
+  background-color: #96d38d;
+}
+
+.subsubpage-link::before {
+  content: '\25BA';
+}

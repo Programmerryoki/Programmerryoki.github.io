@@ -1,0 +1,30 @@
+.algo {
+  margin: 20px 0 0 0;
+  font-size: 15px;
+}
+
+.algo .header1 {
+  font-size: 40px;
+  margin: 5px 5px 5px 0;
+}
+
+.algo .header2 {
+  font-size: 30px;
+  margin: 5px 5px 5px 0;
+}
+
+.algo .description {
+}
+
+.algo .example {
+}
+
+.algo .code {
+}
+
+.algo .language {
+}
+
+.algo .underline {
+  text-decoration: underline;
+}

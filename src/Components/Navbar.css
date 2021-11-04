@@ -1,22 +1,26 @@
 .navbar-menu {
   background-color: #3c8d2f;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .navbar-item {
   background-color: #3c8d2f;
-  border: 10px solid #3c8d2f;
+  padding: 10px;
   color: white;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .navbar-item:hover {
   background-color: #96d38d;
-  border: 10px solid #96d38d;
 }
 
 .navbar-item:focus,
 a.is-active {
   background-color: #64b058;
-  border: 10px solid #64b058;
+}
+
+.navbar-start {
+  box-sizing: border-box;
 }

@@ -1,11 +1,6 @@
 import './csspage.css';
-import { useEffect } from 'react';
 
 const CSSpage = () => {
-  useEffect(() => {
-    document.title = 'CSS Page';
-  }, []);
-
   return (
     <div className='csspage'>
       <div className='csspage_body'>

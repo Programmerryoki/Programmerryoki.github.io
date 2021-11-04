@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div id='wrapper_head'>
       <div className='Header'>
-        <p>Header</p>
+        <p>Ryoki Kunii</p>
       </div>
     </div>
   );

@@ -24,18 +24,22 @@ const Navbar = () => {
             <span aria-hidden='true'></span>
           </a>
         </div>
-        <div className={`navbar-menu ${isOpen && 'is-active'}`}>
+        <div className={`navbar-menu ${isOpen && 'is-active-menu'}`}>
           <div className='navbar-start'>
-            <NavLink className='navbar-item' activeClassName='is-active' to='/'>
+            <NavLink
+              className='navbar-item'
+              activeClassName='is-active'
+              to='/home'
+            >
               Home
             </NavLink>
 
             <NavLink
               className='navbar-item'
               activeClassName='is-active'
-              to='/csspage'
+              to='/programming'
             >
-              CSS
+              Programming
             </NavLink>
 
             <NavLink

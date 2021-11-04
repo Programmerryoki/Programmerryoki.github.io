@@ -5,6 +5,7 @@ Deploy the page with command
 TODO
 
 - update favicon.ico
+- update/add title image
 - update so home won't be selected
 
 ##### Color Palette by Paletton.com

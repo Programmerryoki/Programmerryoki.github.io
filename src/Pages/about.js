@@ -8,7 +8,7 @@ const AboutPage = () => {
 
   return (
     <div>
-      <p>TEST!</p>
+      <h1>This is the page about Programmerryoki</h1>
     </div>
   );
 };
