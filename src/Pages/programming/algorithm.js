@@ -7,9 +7,17 @@ import {
 } from 'react-router-dom';
 
 // Also update programming.js
-var pagesName = ['Djikstra', 'Binary Search'];
+var pagesName = [
+  'TODO Djikstra',
+  'TODO Binary Search',
+  'Binary Exponentiation',
+];
 pagesName.sort();
-var pages = { Djikstra: 'djikstra', 'Binary Search': 'binarysearch' };
+var pages = {
+  Djikstra: 'djikstra',
+  'Binary Search': 'binarysearch',
+  'Binary Exponentiation': 'binaryexponentiation',
+};
 var pageLink = () => {
   var pl = [];
   for (var pagename of pagesName) {

@@ -3,16 +3,6 @@
   font-size: 15px;
 }
 
-.algo .header1 {
-  font-size: 40px;
-  margin: 5px 5px 5px 0;
-}
-
-.algo .header2 {
-  font-size: 30px;
-  margin: 5px 5px 5px 0;
-}
-
 .algo .description {
 }
 
@@ -25,6 +15,13 @@
 .algo .language {
 }
 
-.algo .underline {
-  text-decoration: underline;
+.algo .border {
+  border: 1px solid black;
+}
+
+.algo .table-fixed {
+  table-layout: auto;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  border: solid 1px black;
 }

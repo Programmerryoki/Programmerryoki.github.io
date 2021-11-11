@@ -11,10 +11,16 @@ import CSSPage from './programming/csspage';
 import AlgorithmPage from './programming/algorithm';
 import Djikstra from './programming/algorithm/djikstra';
 import Binarysearch from './programming/algorithm/binarysearch';
+import BinaryExponentiation from './programming/algorithm/binaryexponentiation';
 
 var pagemenu = ['csspage'];
-var pagesName = ['csspage', 'algorithm/djikstra', 'algorithm/binarysearch'];
-var pages = [CSSPage, Djikstra, Binarysearch];
+var pagesName = [
+  'csspage',
+  'algorithm/djikstra',
+  'algorithm/binarysearch',
+  'algorithm/binaryexponentiation',
+];
+var pages = [CSSPage, Djikstra, Binarysearch, BinaryExponentiation];
 var pageLink = () => {
   var pl = [];
   for (var pagename of pagemenu) {

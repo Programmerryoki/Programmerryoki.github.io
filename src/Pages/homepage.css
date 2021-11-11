@@ -1,3 +1,17 @@
 .homepage_body {
   color: black;
 }
+
+.homepage .align_left {
+  display: flexbox;
+  justify-content: flex-start;
+}
+
+.homepage .align_right {
+  display: flexbox;
+  justify-content: flex-end;
+}
+
+.homepage .fixed_width {
+  width: 60%;
+}

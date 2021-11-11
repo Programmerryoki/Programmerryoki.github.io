@@ -1,4 +1,7 @@
 import './algo.css';
+import { addStyles, StaticMathField } from 'react-mathquill';
+
+addStyles();
 
 const Binarysearch = () => {
   return (

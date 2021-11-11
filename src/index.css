@@ -19,9 +19,42 @@ code {
 
 #navbar {
   margin-top: 56px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 #container {
   padding: 0px 3% 0px 3%;
+}
+
+.gray_background {
+  background-color: rgb(220, 220, 220);
+}
+
+.header1 {
+  font-size: 40px;
+  margin: 5px 5px 5px 0;
+}
+
+.header2 {
+  font-size: 30px;
+  margin: 5px 5px 5px 0;
+}
+
+.header3 {
+  font-size: 20px;
+  margin: 5px 5px 5px 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.order-decimal {
+  list-style-type: decimal;
+}
+.order-lower-alpha {
+  list-style-type: lower-alpha;
+}
+.order-disc {
+  list-style-type: disc;
 }
