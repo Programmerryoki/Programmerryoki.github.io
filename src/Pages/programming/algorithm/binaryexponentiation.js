@@ -99,8 +99,10 @@ const BinaryExponentiation = () => {
         </ol>
       </div>
       <div className='example'>
-        <div className='header2'>Example</div>
-        Calculating <SMF>{`a ^ { b }`}</SMF>
+        <div className='header2'>
+          Calculating <SMF>{`a ^ { b }`}</SMF>
+        </div>
+        <div className='header3 underline'>Example 1</div>
         {Code({
           code: `a = 2
 b = 10
@@ -114,6 +116,49 @@ for i in range(len(binary_b)):
 \t\tanswer *= pow_a[i]
 print(answer)`,
           language: 'python',
+        })}
+        <div className='header3 underline'>Example 2</div>
+        {Code({
+          code: `a = 2
+b = 10
+pow_a = a
+answer = 1
+while b > 0:
+\tif b&1:
+\t\tanswer *= pow_a
+\tpow_a *= pow_a
+\tb >>= 1
+print(answer)`,
+          language: 'python',
+        })}
+      </div>
+      <br />
+      <div className='implement'>
+        <div className='header2'>Solving a Problem</div>
+        Solving a problem{' '}
+        <a
+          href='https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3671'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          MODEX
+        </a>{' '}
+        from UVA <br />
+        This question is asking for <SMF>{'x^{y}'}</SMF> mod n.
+        {Code({
+          code: `c = int(input())
+for _ in range(c):
+\tx,y,n = [int(i) for i in input().split()]
+\tans = 1
+\twhile y > 0:
+\t\tif y&1:
+\t\t\tans *= x
+\t\t\tans %= n
+\t\tx *= x
+\t\tx %= n
+\t\ty >>= 1
+\tprint(ans)
+`,
         })}
       </div>
     </div>
