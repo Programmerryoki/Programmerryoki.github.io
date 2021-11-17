@@ -12,6 +12,7 @@ import AlgorithmPage from './programming/algorithm';
 import Djikstra from './programming/algorithm/djikstra';
 import Binarysearch from './programming/algorithm/binarysearch';
 import BinaryExponentiation from './programming/algorithm/binaryexponentiation';
+import EuclideanAlgorithm from './programming/algorithm/euclideanalgorithm';
 
 var pagemenu = ['csspage'];
 var pagesName = [
@@ -19,8 +20,15 @@ var pagesName = [
   'algorithm/djikstra',
   'algorithm/binarysearch',
   'algorithm/binaryexponentiation',
+  'algorithm/euclideanalgorithm',
 ];
-var pages = [CSSPage, Djikstra, Binarysearch, BinaryExponentiation];
+var pages = [
+  CSSPage,
+  Djikstra,
+  Binarysearch,
+  BinaryExponentiation,
+  EuclideanAlgorithm,
+];
 var pageLink = () => {
   var pl = [];
   for (var pagename of pagemenu) {

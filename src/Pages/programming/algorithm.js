@@ -8,15 +8,17 @@ import {
 
 // Also update programming.js
 var pagesName = [
-  'TODO Djikstra',
-  'TODO Binary Search',
+  'Djikstra',
+  'Binary Search',
   'Binary Exponentiation',
+  'Euclidean Algorithm',
 ];
 pagesName.sort();
 var pages = {
   Djikstra: 'djikstra',
   'Binary Search': 'binarysearch',
   'Binary Exponentiation': 'binaryexponentiation',
+  'Euclidean Algorithm': 'euclideanalgorithm',
 };
 var pageLink = () => {
   var pl = [];

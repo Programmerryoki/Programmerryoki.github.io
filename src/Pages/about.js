@@ -1,10 +1,18 @@
 import './about.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { Document, Page } from 'react-pdf';
+import resumePDF from '../Images/Ryoki Kunii Resume Github.pdf';
 
 const AboutPage = () => {
   useEffect(() => {
     document.title = 'About Page';
   }, []);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  var onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
 
   return (
     <div>
@@ -60,6 +68,11 @@ const AboutPage = () => {
             LeetCode
           </a>
         </li>
+      </div>
+      <br />
+      <div className='CV'>
+        <div className='header2'>Resume:</div>
+        <embed src={resumePDF} width='800px' height='1000px' />
       </div>
     </div>
   );

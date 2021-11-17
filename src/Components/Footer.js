@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='footer'>
         <p>
           For more information, please look at "About" Page! This site was last
-          updated 11/11/2021
+          updated 11/17/2021
         </p>
       </div>
     </div>

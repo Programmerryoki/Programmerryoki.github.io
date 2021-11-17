@@ -14,6 +14,9 @@ const Homepage = () => {
         <div className='gray_background'>
           <div className='header3 underline'>Editing History</div>
           <ol className='order-decimal' reversed='reversed'>
+            <li>Added Euclidean Algorithm and the detail</li>
+            <li>Added todo list + added resume in about page</li>
+            <li>Added more detail to Binary Exponentiation</li>
             <li>Added Binary Exponentiation Page + Descriptions</li>
             <li>Edited About page + added pages associated to myself</li>
             <li>Added Binary Search Page (No Description)</li>
@@ -25,6 +28,23 @@ const Homepage = () => {
             <li>Added routing system to page</li>
             <li>Added Home, Css Page, About page</li>
             <li>Created this page</li>
+          </ol>
+        </div>
+        <div className='gray_background'>
+          <div className='header3 underline'>TODO List</div>
+          <ol className='order-disc'>
+            <div>
+              <input type='checkbox' checked={false} />
+              Change Resume to a page
+            </div>
+            <div>
+              <input type='checkbox' checked={false} />
+              Add detail to binary search and djikstra
+            </div>
+            <div>
+              <input type='checkbox' checked={false} />
+              Fix the problem of page not loading when reloaded
+            </div>
           </ol>
         </div>
       </div>

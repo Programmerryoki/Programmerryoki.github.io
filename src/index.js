@@ -27,6 +27,9 @@ ReactDOM.render(
           <Navbar />
           <div id='container'>
             <Switch>
+              {/* <Route exact path='/*'>
+                <Redirect to='/home'></Redirect>
+              </Route> */}
               <Route exact path='/'>
                 <Redirect to='/home'></Redirect>
               </Route>

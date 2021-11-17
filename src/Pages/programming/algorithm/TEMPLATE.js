@@ -24,13 +24,23 @@ var Code = ({
 const TEMP = () => {
   return (
     <div className='algo'>
-      <div className='header1 underline'>TITLE</div>
-      <div>
-        <div className='header2'>Constraints :</div>
+      <div className='header1 underline'>TEMP</div>
+      <br />
+      <div className=''>
+        <div className='header2'>Summary</div>
         <li></li>
       </div>
-      <div className='description'></div>
+      <br />
+      <div className='description'>
+        <div className='header2'>Algorithm</div>
+        <div className='assumption'></div>
+        <ol className='order-decimal'></ol>
+      </div>
       <div className='example'></div>
+      <br />
+      <div className='implement'>
+        <div className='header2'>Solving a Problem</div>
+      </div>
     </div>
   );
 };
