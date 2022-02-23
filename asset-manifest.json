@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ab372673.chunk.css",
-    "main.js": "/static/js/main.6e17af57.chunk.js",
-    "main.js.map": "/static/js/main.6e17af57.chunk.js.map",
+    "main.js": "/static/js/main.2e9a7fd1.chunk.js",
+    "main.js.map": "/static/js/main.2e9a7fd1.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.0a6df6d0.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.0a6df6d0.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.31088273.chunk.js",
@@ -319,12 +319,12 @@
     "static/media/CJ 2020.dc9de057.pdf": "/static/media/CJ 2020.dc9de057.pdf",
     "static/media/CJ 2021.7ec407db.pdf": "/static/media/CJ 2021.7ec407db.pdf",
     "static/media/KS 2021.8977a990.pdf": "/static/media/KS 2021.8977a990.pdf",
-    "static/media/Ryoki Kunii Resume Github.bed4a843.pdf": "/static/media/Ryoki Kunii Resume Github.bed4a843.pdf"
+    "static/media/Ryoki Kunii Resume.f14a627a.pdf": "/static/media/Ryoki Kunii Resume.f14a627a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.77e7371f.js",
     "static/js/153.87278fdc.chunk.js",
     "static/css/main.ab372673.chunk.css",
-    "static/js/main.6e17af57.chunk.js"
+    "static/js/main.2e9a7fd1.chunk.js"
   ]
 }
